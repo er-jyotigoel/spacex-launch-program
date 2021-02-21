@@ -1,0 +1,36 @@
+.program-record-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: #f3f3f3;
+  justify-content: space-between;
+}
+
+.program-record-container > div {
+  text-align: center;
+  width: 100%;
+  background-color: white;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.image-container {
+  background-color: #f3f3f3;
+}
+
+.image-style {
+  width: 100%;
+}
+
+.program-record-container-card {
+  padding: 10px;
+}
+
+.left-align-content {
+  text-align: left;
+}
+
+.text-cloro-blue {
+  color: #0f21a5;
+}

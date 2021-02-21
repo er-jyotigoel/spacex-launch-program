@@ -1,0 +1,58 @@
+.filter-container-wrapper {
+  background-color: white;
+  height: fit-content;
+  padding-bottom: 35px;
+}
+
+.filter-container-heading {
+  margin: 0;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.filter-container {
+  padding: 5px 15px 10px;
+}
+
+.filter-label {
+  margin: auto;
+  text-align: center;
+}
+
+.filter-options-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+}
+
+.filter-options-container-button {
+  display: block;
+  color: black;
+  flex: 0 35%;
+  margin: 0 auto 10px;
+  padding: 5px 0;
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+}
+
+.filter-options-container-button:focus {
+  outline: none;
+}
+
+.filter-options-container-item-select {
+  background-color: #4fc54f;
+}
+
+.filter-options-container-item-deselect {
+  background-color: #bee6be;
+}
+
+.filter-options-container > i {
+  flex: 0 35%;
+  margin: 0 auto 10px;
+  display: block;
+}
